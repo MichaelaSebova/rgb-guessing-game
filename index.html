@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <title>RGB guessing game</title>
+</head>
+<body>
+
+    <header>
+        <h1>THE GREAT <br> <span id="picked-color"></span><br>GUESSING GAME</h1>
+    </header>
+
+    <main>
+        <section id="settings">
+            <button id="reset">NEW COLORS</button>
+            <span id="response"></span>
+            <button class="mode">EASY</button>
+            <button class="mode">HARD</button>
+        </section>
+
+        <section id="colors-to-choose">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </section>
+    </main>
+    <script src="colorGame.js"></script>
+</body>
+</html>
